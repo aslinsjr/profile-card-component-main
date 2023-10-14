@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+body {
+    background-image:
+        url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -400px -500px, 700px 300px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+    border-radius: 20px;
+}
+
+.header-image {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.header-image img {
+    border-radius: 15px 15px 0 0;
+}
+
+.perfil-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 0.3rem;
+}
+
+.text-container {
+    background-color: white;
+    width: 350px;
+    margin-top: -70px;
+    padding-top: 5rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.perfil-heading {
+    display: flex;
+    gap: .5rem;
+}
+
+.perfil-image{
+    background-color: white;
+    padding: 0.4rem;
+    z-index: 1;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+.perfil-image img {
+    border-radius: 50%;
+}
+
+.line {
+    border-bottom: solid 1px hsla(0, 0%, 59%, 0.226);
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem 2.5rem ;
+}
+
+.neutral-color {
+    color: hsl(0, 0%, 59%);
+}
+
+.stats-text {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+}
+
+.attribution { 
+    margin-top: 0.5rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:500px) {
+    body{
+    background-image:
+        url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -800px -600px, 250px 200px;
+    background-color: hsl(185, 75%, 39%);
+    }
+    
+}
